@@ -9,33 +9,264 @@
 <body>
     <div class="box-area">
         <div class="header">
-            <p>header area</p>
+            <div id="profile-stuff">
+                <img src="profile-pictures/02m.jpg" alt="user profile picture" id="user-picture">
+                <div class="name-tag">
+                    <h4>Albert Albertein</h4>
+                    <p class="at">@Albertein</p>
+                </div>
+                <!--
+                <img src="profile-pictures/pingui.png" alt="user profile picture" id="user-picture">
+                <div class="name-tag">
+                    <h4>Pingui</h4>
+                    <p class="at">@GoodestBoy</p>
+                </div>
+                --> 
+            </div>
+            <div id="search-stuff">
+                <label for="search"><img src="icons/search.png" alt="search icon"></label>
+                <input type="search" id="search" name="search">
+            </div>
+            <div id="actions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
         <div class="left-sidebar">
-            <p>left sidebar area</p>
+            <ul id="icons">
+                <li>
+                    <img src="icons/home.png">
+                    <a href="" id="home">Home</a>
+                </li>
+                <li>
+                    <img src="icons/profile.png">
+                    <a href="">Profile</a>
+                </li>
+                <li>
+                    <img src="icons/messages.png">
+                    <a href="">Messages</a>
+                </li>
+                <li>
+                    <img src="icons/history.png">
+                    <a href="">History</a>
+                </li>
+                <li>
+                    <img src="icons/tasks.png">
+                    <a href="">Tasks</a>
+                </li>
+                <li>
+                    <img src="icons/friends.png">
+                    <a href="">Friends</a>
+                </li>
+            </ul>
+            <ul id="icons2">
+                <li>
+                    <img src="icons/settings.png">
+                    <a href="">Settings</a>
+                </li>
+                <li>
+                    <img src="icons/support.png">
+                    <a href="">Support</a>
+                </li>
+                <li>
+                    <img src="icons/privacy.png">
+                    <a href="">Privacy</a>
+                </li>
+            </ul>
         </div>
         <div class="main">
             <div class="content">
-                <h3>New tweets</h3>
+                <h3>New posts</h3>
                 <div class="content-grid">
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/11m.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Coffee</h4>
+                                <p class="at">@Coffee</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/01w.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Juana Juanestein</h4>
+                                <p class="at">@Juanestein</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/10m.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Magnum</h4>
+                                <p class="at">@Magnum</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/03w.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Green Tea</h4>
+                                <p class="at">@Green Tea</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/13m.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Peanut</h4>
+                                <p class="at">@Peanut</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/07w.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Apple Pie</h4>
+                                <p class="at">@Apple Pie</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/16w.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Strawberry Lime</h4>
+                                <p class="at">@Strawberry Lime</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-profile">
+                            <img src="profile-pictures/17w.jpg" alt="user profile picture" id="user-picture">
+                            <div class="name-tag">
+                                <h4>Mouse Cat</h4>
+                                <p class="at">@Mouse Cat</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            scetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae
+                        </div>
+                        <div class="card-icons">
+                            <img src="icons/heart.png" alt="like">
+                            <img src="icons/comment.png" alt="comment">
+                            <img src="icons/share.png" alt="share">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="side-content">
-                <div class="announcements">
-                    <h3>Announcements</h3>
-                    <div id="an-card" class="side-card"></div>
-                </div>
                 <div class="trending">
                     <h3>Trending</h3>
-                    <div id="tr-card" class="side-card"></div>
+                    <div id="tr-card" class="side-card">
+                        <div class="right-profile">
+                            <img src="profile-pictures/17w.jpg" alt="user profile picture">
+                            <div class="name-tag">
+                                <h4>Mouse Cat</h4>
+                                <p class="at">@Mouse Cat</p>
+                            </div>
+                        </div>
+                        <div class="right-profile">
+                            <img src="profile-pictures/16w.jpg" alt="user profile picture">
+                            <div class="name-tag">
+                                <h4>Strawberry Lime</h4>
+                                <p class="at">@Strawberry Lime</p>
+                            </div>
+                        </div>
+                        <div class="right-profile">
+                            <img src="profile-pictures/13m.jpg" alt="user profile picture">
+                            <div class="name-tag">
+                                <h4>Peanut</h4>
+                                <p class="at">@Peanut</p>
+                            </div>
+                        </div>
+                        <div class="right-profile">
+                            <img src="profile-pictures/10m.jpg" alt="user profile picture">
+                            <div class="name-tag">
+                                <h4>Magnum</h4>
+                                <p class="at">@Magnum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div id="an-card" class="side-card">
+                        <div class="low-border">
+                            <h4>New Update</h4>
+                            <p> justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </p>
+                        </div>
+                        <div class="low-border">
+                            <h4>Maintenance</h4>
+                            <p>etus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+                        </div>
+                        <div>
+                            <h4>New update</h4>
+                            <p>, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
